@@ -1,0 +1,238 @@
+:root{
+    --vw: 100vw;
+    --blue:rgb(46, 67, 129);
+    --green:rgb(93, 120, 155);
+    --yellow:rgb(24, 141, 24);
+}
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: var(--vw);
+    height: 9%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+}
+
+.nav-logo{
+    width: 84px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.nav-logo:hover{
+    filter: brightness(200%);
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li a{
+    position: relative;
+    right: 15px;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    font-family: serif;
+    font-size: 31px;
+    color: white;
+}
+
+
+
+.nav-list li a:hover{
+    box-shadow:cornflowerblue 1px 2px 10px 1px;
+    filter:saturate(50);
+}
+
+.nav-list2{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.nav-list2 li a{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.slider{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.wol-store{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3) url(../madia/imeges/wol-store.jpg) ;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hots-store{
+    width: 100vw;
+    height: 120vh;
+    background: rgba(0, 0, 0, 0.3) url(../madia/imeges/hots-store.jpg) ;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lotv-store{
+    width: 100vw;
+    height: 110vh;
+    background: rgba(0, 0, 0, 0.3) url(../madia/imeges/lotv-store.jpg) ;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-store{
+    width: 72%;
+    height: auto;
+}
+
+.img-store:hover{
+    transform: scale(1.2);
+    filter: brightness(140%);
+}
+
+.hots-store img{
+    width: 45%;
+    height: auto;
+}
+
+.store{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium';
+    background-color: var(--blue);
+}
+
+.button:hover{
+    filter: brightness(150%);
+}
+
+.store{
+    display: flex;
+}
+
+.store h1{
+    color: var(--yellow);
+    font-size: 40px;
+    padding-top: 10%;
+    
+}
+
+.box-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-game h1{
+    text-align: center;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: var(--green);
+    width: 100vw;
+    height: 60vh;
+    padding: 1px;
+}
+
+.form-box{
+    margin-top: 50px;
+    text-align: center;
+    width: 200px;
+    height: 230px;
+    border: coral solid 2px;
+    background-color: rgb(38, 96, 104);
+    border-radius: 25%;
+    padding: 25px;
+}
+
+.formline{
+    display: flex;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
